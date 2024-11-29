@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de inicio">
+    <meta name="author" content="Equipo 3">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos básicos en línea para ejemplo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        main {
+            padding: 1rem;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EducacionB</h1>
+        <p>Una buena formación para buenos empleados</p>
+    </header>
+
+    <!-- Barra de navegación completa -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="Logo1.jpg" alt="Logo" style="width: 50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="IndexV2.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAccesos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Control de Accesos 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownAccesos">
+                        <li><a class="dropdown-item" href="Login_Participante.html">Acceso Participante</a></li>
+                        <li><a class="dropdown-item" href="Login_Usuario.html">Acceso Empresa</a></li>
+                        <li><a class="dropdown-item" href="Registro_Participantes.html">Registrar Participante</a></li>
+                        <li><a class="dropdown-item" href="Registro_Empresas.html">Registrarse Empresas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownParticipante" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Participante
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownParticipante">
+                        <li><a class="dropdown-item" href="comentarios Vbar.html">Gestion de Feedback (comentarios)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEmpresa" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Empresa
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownEmpresa">
+                        <li><a class="dropdown-item" href="Pagos.html">Pagos</a></li>
+                        <li><a class="dropdown-item" href="#">Gestion de cuentas</a></li>
+                    </ul>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownParticipante" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gestion de contenido
+                        </a>
+                </li>
+                
+                
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Nuestro principal objetivo es darle la formación que tus trabajadores necesitan para que tú ahorres tiempo y dinero.</p>
+        </section>
+        <section id="acerca">
+            <h2>Acerca de nosotros</h2>
+            <p>Somos una empresa que busca el desarrollo de los trabajadores a través de diferentes cursos, ya sea para facilitar su ingreso al mundo laboral o desarrollar sus habilidades para asumir nuevos puestos en la empresa que contrata nuestros servicios.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 EducaciónB. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
